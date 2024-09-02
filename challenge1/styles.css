@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family:Outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    width: 25vw;
+    height: auto;
+    background-color: white;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2vh;
+}
+
+.qr-image {
+    width: 21vw;
+    margin: 4vh auto;
+    border-radius: 20px;
+}
+
+.text-container h2 {
+    font-size: 15px;
+    margin-bottom: 1vh;
+}
+
+.text-container p {
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+
