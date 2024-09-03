@@ -31,7 +31,7 @@
                         <p> 3 items</p>
                     </li>
                     <li>
-                        <img src="../challenge1/images/image-qr-code.png" alt="" class="account">
+                        <img src="../challenge1/images/image-qr-code.png" alt="" class="accounts">
                     </li>
                 </ul>
             </nav>
@@ -42,26 +42,68 @@
         <div class="main">
             <section class="account">
                 <ul class="progress-list">
-                    <li class="progress-item" style="color: cornflowerblue;">Account &mdash; <i class="fa-solid fa-circle-check"></i></li> &mdash;
+                    <li class="progress-item" style="color: cornflowerblue;">Account <span style="color: black;"> &mdash; </span><i class="fa-solid fa-circle-check"  style="color: black !important;""></i></li> &mdash;
                     <li class="progress-item">Shipping &mdash; <i class="fa-solid fa-circle-check"></i></li> &mdash;
                     <li class="progress-item">Payment</li>
                 </ul>
                 <form action="" class="form">
                     <h3>Account Details</h3>
                     <label for="">Email adress</label><br><br>
-                    <input type="email" placeholder="Email@myemail.com">
-                    <i class="fa-solid fa-circle-check"></i><br><br>
+                    <div class="input-container">
+                        <input type="email" placeholder="  Email@myemail.com">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <br><br>
                     <label for="">Password</label><br><br>
-                    <input type="text" placeholder="password">
-                    <i class="fa-solid fa-circle-check"></i><br><br>
+                    <div class="input-container">
+                        <input type="text" placeholder="  Password">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <br><br>
+                    
                     <div style="display: flex;">
-                        <p>Register for account</p>
-                        <button class="login"> Login</button>
+                        <p style="margin-right: 10px;margin-left: 115px;">Register for account</p>
+                        <button class="login"> <strong>Login</strong></button>
+                    </div>
+                </form>
+                <hr class="hr">
+                <form action="">
+                    <div style="display: flex;margin-top: 70px;">
+                        <p style="margin-right: 10px; margin-left: 83px;">Register for account</p>
+                        <button class="login" > <strong>Shipping Details</strong></button>
                     </div>
                 </form>
             </section>
             <section class="product">
-                <p>als;lljfdfg</p>
+                <div style="width: 90%; height: ;">
+                    <div class="product-div">
+                        <h3>Order Summary</h3>
+                        <div class="prod-image"><img src="./images/headphones.png" alt=""></div>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <div style="margin-right: 30px;">
+                            <p style="font-size: 20px;">Sony wireless headphones</p>
+                            <h4 style="font-size: 20px;"><strong>£320.45</strong></h4>
+                        </div>
+                        <div class="quantity">
+                            <button class="negative">−</button>
+                            <span class="amount">1</span>
+                            <button class="positive">+</button>
+                        </div>
+                    </div>
+                    <p style="color: grey;">Gift Card/Discount code</p>
+                    <div class="discount">
+                        <input type="text">
+                        <button >Apply</button>
+                    </div>
+    
+                    <div class="summary">
+                        <p>Sub total <span>£316.55</span></p>
+                        <p>Sub total <span>£316.55</span></p>
+                        <p>Sub total <span style="color: rgb(89, 182, 89);">Free</span></p>
+                        <p><strong style="font-size: 20px;">Sub total</strong> <span>£316.55</span></p>
+                    </div>
+                </div>
             </section>
         </div>
 
