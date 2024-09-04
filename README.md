@@ -11,7 +11,4 @@
 ![challenge4](https://github.com/user-attachments/assets/65b64325-eac7-4f59-adbb-cadc19a9a96a)
 
 # Challenge5 - Working with Grid
-![challenge5](https://github.com/user-attachments/assets/3f0285df-6691-4383-8bc9-934bffc287c1)
-
-
-
+![challenge5](https://github.com/user-attachments/assets/fee04496-af11-45d1-a070-a5a3e6f9cc14)
